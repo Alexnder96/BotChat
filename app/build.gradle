@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.botchat.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.botchat.app"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            // R8: reduce y ofusca el código del APK de release (la regla de TDLib está en proguard-rules.pro).
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    // TDLib 1.8.56 (la librería oficial de Telegram). Las clases Java van en este jar
+    // y el código nativo en src/main/jniLibs. No hay nada más que descargar.
+    implementation files('libs/tdlib.jar')
+
+    // Pruebas unitarias de la lógica sin Android (carpeta app/src/test). Se corren con: ./gradlew test
+    testImplementation 'junit:junit:4.13.2'
+}

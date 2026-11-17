@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MODO OSCURO. Para cambiar un color basta con cambiar su valor aquí. -->
+
+    <!-- Color de acento: botón de enviar, botón "Continuar", barra de carga -->
+    <color name="primary">#2F6FDE</color>
+    <color name="primary_dark">#1E4FA8</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <!-- Fondos -->
+    <color name="chat_background">#0E1319</color>
+    <color name="surface">#161C24</color>
+    <color name="field">#222B37</color>
+    <color name="placeholder">#2A3441</color>
+
+    <!-- Globos de los mensajes: el del bot y el tuyo -->
+    <color name="bubble_in">#1F2732</color>
+    <color name="bubble_out">#1A3862</color>
+
+    <!-- Textos -->
+    <color name="text_primary">#E9EDF2</color>
+    <color name="text_secondary">#9AA7B8</color>
+    <color name="link">#8AB8FF</color>
+    <color name="error">#FF7A7A</color>
+
+    <!-- Fondo de los botones del bot y de los archivos adjuntos (azul al 20 %) -->
+    <color name="button_inline">#333D8BFD</color>
+
+    <color name="ic_launcher_background">#2563C9</color>
+</resources>

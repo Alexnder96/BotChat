@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Globo de chat -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,36h40a4,4 0,0 1,4 4v24a4,4 0,0 1,-4 4H50l-10,8v-8h-6a4,4 0,0 1,-4 -4V40a4,4 0,0 1,4 -4z" />
+    <!-- Tres puntos -->
+    <path
+        android:fillColor="#2563C9"
+        android:pathData="M41,52a3,3 0,1 0,6 0a3,3 0,1 0,-6 0zM51,52a3,3 0,1 0,6 0a3,3 0,1 0,-6 0zM61,52a3,3 0,1 0,6 0a3,3 0,1 0,-6 0z" />
+</vector>

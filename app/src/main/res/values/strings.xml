@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- El nombre que se ve debajo del ícono de la app. -->
+    <string name="app_name">Mi Bot</string>
+
+    <!-- Configuración -->
+    <string name="settings_first_title">Configura tu bot</string>
+    <string name="settings_first_message">Escribe estos datos una sola vez. Después podrás cambiarlos desde el menú ⋮ → Configuración.</string>
+    <string name="settings_title">Configuración</string>
+    <string name="settings_message">Aquí puedes cambiar los datos de tu bot y cómo se ve el título.</string>
+    <string name="settings_api_id">API ID</string>
+    <string name="settings_api_id_hint">12345678</string>
+    <string name="settings_api_hash">API Hash</string>
+    <string name="settings_api_hash_hint">0123456789abcdef0123456789abcdef</string>
+    <string name="settings_bot">Usuario del bot</string>
+    <string name="settings_bot_hint">MiBotDeConsultas_bot</string>
+    <string name="settings_help">El API ID y el API Hash se sacan en https://my.telegram.org → «API development tools». El usuario del bot va sin @.</string>
+    <string name="settings_show_title">Mostrar el título del bot</string>
+    <string name="settings_title_text">Texto del título</string>
+    <string name="settings_secure_chat">Bloquear capturas en el chat</string>
+    <string name="settings_secure_chat_help">Impide las capturas de pantalla y oculta el chat en la lista de apps recientes. Filtros, Configuración e inicio de sesión siempre están protegidos.</string>
+    <string name="settings_save">Guardar</string>
+    <string name="settings_save_continue">Guardar y continuar</string>
+    <string name="settings_saved">Guardado</string>
+    <string name="settings_cancel">Cancelar</string>
+    <string name="settings_link">Configuración</string>
+    <string name="settings_error_api_id">El API ID debe ser un número. Ejemplo: 12345678</string>
+    <string name="settings_error_api_hash">Escribe el API Hash.</string>
+    <string name="settings_error_bot">Escribe el usuario del bot (solo letras, números y _).</string>
+    <string name="settings_api_changed_title">Cambiar API ID / API Hash</string>
+    <string name="settings_api_changed_message">Al cambiar estos datos se cerrará la sesión de Telegram en esta app y tendrás que iniciar sesión otra vez.</string>
+
+    <!-- Filtros -->
+    <string name="menu_filters">Filtros</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="filters_title">Filtros</string>
+    <string name="filters_message">Lo que pongas aquí no aparecerá en el chat. No distingue mayúsculas ni tildes.</string>
+    <string name="filters_words_title">Palabras clave ocultas</string>
+    <string name="filters_words_help">Esa palabra se quita de los mensajes del bot (texto y pie de foto) y el resto del mensaje se ve igual. Ejemplo: con «jubilate», «hola solo por hoy jubilate» se ve «hola solo por hoy». Solo cuenta la palabra completa.</string>
+    <string name="filters_words_hint">Palabra o frase</string>
+    <string name="filters_images_title">Imágenes ocultas por nombre</string>
+    <string name="filters_images_help">Se ocultan las fotos y archivos cuyo nombre (o pie de foto) contenga este texto. Ejemplo: «logo» oculta logo_empresa.png.</string>
+    <string name="filters_images_hint">Nombre de la imagen</string>
+    <string name="filters_add">Agregar</string>
+    <string name="filters_none">Todavía no hay ninguno.</string>
+    <string name="filters_remove">Quitar</string>
+    <string name="filters_duplicate">Ya está en la lista.</string>
+    <string name="filters_change_password">Cambiar contraseña</string>
+    <string name="filters_done">Listo</string>
+
+    <!-- Contraseña de filtros -->
+    <string name="password_create_title">Crea una contraseña</string>
+    <string name="password_create_message">Protegerá los Filtros y la Configuración. Mínimo 4 caracteres.</string>
+    <string name="password_change_title">Nueva contraseña</string>
+    <string name="password_ask_title">Contraseña de filtros</string>
+    <string name="password_ask_message">Escribe tu contraseña para continuar.</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="password_confirm_hint">Repite la contraseña</string>
+    <string name="password_ok">Aceptar</string>
+    <string name="password_wrong">Contraseña incorrecta.</string>
+    <string name="password_short">Debe tener al menos 4 caracteres.</string>
+    <string name="password_mismatch">Las contraseñas no coinciden.</string>
+    <string name="password_changed">Contraseña cambiada</string>
+    <string name="password_checking">Comprobando…</string>
+    <string name="password_locked">Demasiados intentos. Espera %1$s para volver a intentar.</string>
+    <string name="password_forgot">Olvidé mi contraseña</string>
+    <string name="reset_title">Restablecer el bot</string>
+    <string name="reset_message">Se borrará TODO: filtros, contraseña, la configuración del bot (API ID, API Hash y usuario) y se cerrará la sesión de Telegram. La app quedará como recién instalada. Esto no se puede deshacer.</string>
+    <string name="reset_confirm">Restablecer</string>
+    <string name="reset_done">Bot restablecido.</string>
+
+    <!-- Inicio de sesión -->
+    <string name="login_connecting">Conectando con Telegram…</string>
+    <string name="login_closing">Cerrando sesión…</string>
+    <string name="login_continue">Continuar</string>
+    <string name="login_change_number">Usar otro número</string>
+    <string name="login_phone_title">Inicia sesión</string>
+    <string name="login_phone_message">Escribe el número de tu cuenta de Telegram, con el código de país.</string>
+    <string name="login_phone_hint">+51 999 999 999</string>
+    <string name="login_code_title">Escribe el código</string>
+    <string name="login_code_hint">Código</string>
+    <string name="login_code_in_app">Telegram te envió un código por mensaje dentro de la app de Telegram (chat «Telegram»). Ábrela en tu teléfono o en la PC y cópialo aquí.</string>
+    <string name="login_code_sms">Te enviamos un código por SMS al %1$s.</string>
+    <string name="login_code_call">Vas a recibir una llamada al %1$s con el código.</string>
+    <string name="login_code_generic">Telegram te envió un código de inicio de sesión. Escríbelo aquí.</string>
+    <string name="login_password_title">Contraseña de dos pasos</string>
+    <string name="login_password_message">Tu cuenta tiene verificación en dos pasos. Escribe tu contraseña de Telegram.</string>
+    <string name="login_password_hint_is">Pista: %1$s</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_email_title">Correo de inicio de sesión</string>
+    <string name="login_email_message">Telegram pide un correo para enviarte los códigos de inicio de sesión.</string>
+    <string name="login_email_hint">correo@ejemplo.com</string>
+    <string name="login_email_code_message">Telegram envió un código al correo %1$s.</string>
+    <string name="login_no_account_title">Número sin cuenta</string>
+    <string name="login_no_account_message">Ese número no tiene una cuenta de Telegram. Crea la cuenta en la app oficial o usa otro número.</string>
+    <string name="login_unsupported_title">No se puede continuar aquí</string>
+    <string name="login_unsupported_message">Telegram pidió un paso que esta app no maneja. Inicia sesión primero en la app oficial de Telegram y vuelve a intentar.</string>
+
+    <!-- Chat -->
+    <string name="chat_title">\@%1$s</string>
+    <string name="chat_loading">Abriendo el chat…</string>
+    <string name="chat_empty">No hay mensajes para mostrar.\nEscribe /start para empezar.</string>
+    <string name="chat_not_ready">El chat todavía se está abriendo.</string>
+    <string name="chat_input_hint">Escribe tu consulta</string>
+    <string name="chat_send">Enviar</string>
+    <string name="chat_menu">Más opciones</string>
+    <string name="chat_photo">Foto</string>
+    <string name="state_connecting">conectando…</string>
+    <string name="state_no_network">sin conexión a internet</string>
+    <string name="state_typing">escribiendo…</string>
+    <string name="menu_logout">Cerrar sesión</string>
+    <string name="logout_message">Se cerrará la sesión de Telegram solo en esta app. Tus otros dispositivos no cambian.</string>
+
+    <!-- Mensajes -->
+    <string name="message_sending">enviando…</string>
+    <string name="message_failed">no se envió</string>
+    <string name="message_edited">editado %1$s</string>
+    <string name="message_sticker">%1$s (sticker)</string>
+    <string name="message_unsupported">[Este tipo de mensaje todavía no se muestra en la app]</string>
+    <string name="button_unsupported">Este botón todavía no funciona en la app.</string>
+    <string name="copied">Copiado</string>
+    <string name="url_failed">No se pudo abrir el enlace.</string>
+
+    <!-- Archivos -->
+    <string name="file_document">Documento</string>
+    <string name="file_video">Video</string>
+    <string name="file_animation">GIF</string>
+    <string name="file_audio">Audio</string>
+    <string name="file_voice">Nota de voz</string>
+    <string name="file_tap_to_open">Toca para abrir</string>
+    <string name="file_tap_to_download">Toca para descargar</string>
+    <string name="file_downloading">Descargando… %1$d%%</string>
+    <string name="file_download_failed">No se pudo descargar el archivo.</string>
+    <string name="file_open_failed">No se pudo abrir el archivo.</string>
+    <string name="file_no_app">No tienes una app para abrir este tipo de archivo.</string>
+
+    <!-- Errores -->
+    <string name="error_phone_no_country">Incluye el código de país. Ejemplo: +51 999 999 999</string>
+    <string name="error_phone_invalid">Ese número no es válido. Usa el formato +51999999999.</string>
+    <string name="error_phone_banned">Telegram tiene bloqueado ese número.</string>
+    <string name="error_code_invalid">El código no es correcto. Revísalo y vuelve a intentar.</string>
+    <string name="error_code_expired">El código venció. Usa «Usar otro número» para pedir uno nuevo.</string>
+    <string name="error_password_invalid">La contraseña no es correcta.</string>
+    <string name="error_api_id">Telegram rechazó el API ID o el API Hash. Revísalos en Configuración.</string>
+    <string name="error_flood">Telegram pide esperar antes de volver a intentar (%1$s).</string>
+    <string name="error_bot_not_found">No se encontró el bot \@%1$s. Revisa el usuario del bot en Configuración (menú ⋮).</string>
+    <string name="error_generic">Error %1$d: %2$s</string>
+    <string name="error_unknown">Algo salió mal. Vuelve a intentar.</string>
+</resources>
