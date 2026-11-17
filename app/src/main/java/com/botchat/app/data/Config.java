@@ -16,8 +16,6 @@ public final class Config {
 
     /** Frases que NO quieres ver en las respuestas del bot (se quitan del texto del mensaje). */
     public static final String[] HIDDEN_PHRASES = {
-            "[0] → ",
-            "[0]"
     };
 
     private static final String PREFS = "botchat_config";
